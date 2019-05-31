@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/snowboardingmaurice/precache-manifest.1d83952c87db602afeb4ec9791106ff5.js"
+  "/snowboardingmaurice/precache-manifest.86d4dd32952e56f7a3a674acc07459c1.js"
 );
 
 self.addEventListener('message', (event) => {
