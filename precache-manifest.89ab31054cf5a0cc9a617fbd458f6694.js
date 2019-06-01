@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97c1bb6c69e56415d7e0f96edb958d6e",
+    "revision": "7d003713034e8fadc6dca414dc5f100c",
     "url": "/snowboardingmaurice/index.html"
   },
   {
-    "revision": "61ab6df8bf42423666bd",
+    "revision": "a2a9cf6b04578d91ea93",
     "url": "/snowboardingmaurice/static/css/main.3f341bbd.chunk.css"
   },
   {
-    "revision": "a40f60485db5a8cc77e3",
-    "url": "/snowboardingmaurice/static/js/2.13c2fe96.chunk.js"
+    "revision": "8e3bd3a90a5e97037328",
+    "url": "/snowboardingmaurice/static/js/2.0c3d245d.chunk.js"
   },
   {
-    "revision": "61ab6df8bf42423666bd",
-    "url": "/snowboardingmaurice/static/js/main.0c9a941c.chunk.js"
+    "revision": "a2a9cf6b04578d91ea93",
+    "url": "/snowboardingmaurice/static/js/main.4074261f.chunk.js"
   },
   {
     "revision": "dd47086f34981ca86a2d",
