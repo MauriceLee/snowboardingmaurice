@@ -5,7 +5,7 @@ export default class Title extends Component {
 	render() {
 		// 接收來自上層元件的 todos 陣列
 		const {
-			todos,
+			todos
 		} = this.props
 		return (
 			<Container>

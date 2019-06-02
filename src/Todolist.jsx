@@ -6,12 +6,10 @@ import TodoForm from './components_todolist/TodoForm';
 export default class Todolist extends Component {
 	constructor() {
 		super() 
-		let todos = [
-			{ id: 0, text: '範例'},
-		]
+		let todos = JSON.parse(localStorage.getItem("TodosList")) || []
 		this.state = {
 			todos: todos,
-			startId: 1,	// 下一個代辦事項的id
+			startId: 0	// 下一個代辦事項的id
 		}
 	}
 	

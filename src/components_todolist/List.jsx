@@ -7,6 +7,7 @@ export default class List extends Component {
         const {
             todos
         } = this.props
+        localStorage.setItem("TodosList",JSON.stringify(todos));
         return (
             <Container>
                 <ol>

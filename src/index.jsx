@@ -9,6 +9,5 @@ ReactDOM.render(
 			<App />
 		</Switch>
 	</HashRouter>,
-	
-	document.getElementById('root')
+	document.getElementById("root")
 );

@@ -5,7 +5,7 @@ export default class TodoForm extends Component {
     constructor() {
         super()
         this.state = {
-            text: ''
+            text: ""
         }
     }
 
@@ -14,7 +14,7 @@ export default class TodoForm extends Component {
         this.props.createTodo(this.state.text) // 調用從上層元件傳來的 createTodo 函式
         // 將 input 內容改變為初始狀態
         this.setState({
-            text: '',
+            text: ""
         })
     }
 
@@ -34,7 +34,7 @@ export default class TodoForm extends Component {
         return (
             <Container>
                 <input
-                    type='text' 
+                    type="text" 
                     onChange={e => this.onInputChange(e)} // 監聽 input 的 change 事件
                     value={this.state.text} // 將 state 儲存的 input 值進行雙向綁定
                     onKeyDown={e => this.handleKeyDown(e)} // 監聽 input 的 keyDown 事件
