@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
+import { createTodo } from "../actions";
+import { connect } from "react-redux";
 
-export default class TodoForm extends Component {
+class TodoForm extends Component {
     constructor() {
         super()
         this.state = {
@@ -46,3 +48,17 @@ export default class TodoForm extends Component {
         )
     }
 }
+
+// 宣告一個method來取得actions裡的method,且能夠dispatch讓reducer知道要處理
+const mapDispatchToProps = dispatch => {
+    return {
+        // 將此method命名,讓this.props能調用
+        createTodo: text => {
+            // createTodo為action裡定義的createTodo method
+            dispatch(createTodo(text))
+        }
+    }
+}
+  
+// 沒有mapStateToProps,第一個參數傳入null
+export default connect(null, mapDispatchToProps)(TodoForm)

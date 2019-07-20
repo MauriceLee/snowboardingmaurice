@@ -2,54 +2,30 @@ import React, { Component } from 'react';
 import Title from './components_todolist/Title';
 import List from './components_todolist/List';
 import TodoForm from './components_todolist/TodoForm';
+import { createStore } from 'redux';
+import todoReducer from './reducers/index';
+import { Provider } from "react-redux";
+
+// 調用createStore, 加入reducer建立store 
+let store = createStore(
+	todoReducer,
+	// redux 的 chrome 開發工具
+	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
 
 export default class Todolist extends Component {
-	constructor() {
-		super() 
-		let todos = JSON.parse(localStorage.getItem("TodosList")) || []
-		this.state = {
-			todos: todos,
-			startId: 0	// 下一個代辦事項的id
-		}
-	}
-	
-	// 新增待辦事項
-	createTodo(text) {
-		this.setState({
-			todos: [...this.state.todos, {
-				id: this.state.startId,
-				text: text
-			}],
-			startId: this.state.startId + 1 // 新增且同時設定下一個待辦事項的id
-		})
-	}
-
-	// 刪除待辦事項
-	removeTodo(id) {
-		this.setState({
-			// filter
-			todos: this.state.todos.filter(todo => {
-				return todo.id !== id
-			})
-		})
-	}
-
 	render() {
 		return (
-			<div>
-				<Title 
-					todos={this.state.todos} 
-				/>
-				<br />
-				<TodoForm 
-					createTodo={text => this.createTodo(text)} 
-				/>
-				<br />
-				<List 
-					todos={this.state.todos} 
-					remove={id => this.removeTodo(id)}
-				/>
-			</div>
+			// 將建立好的store交給Provider, 使底下所有組件皆能取得store裡的state
+			<Provider store={store}>
+				<div>
+					<Title/>
+					<br />
+					<TodoForm/>
+					<br />
+					<List/>
+				</div>
+			</Provider>
 		)
 	}
 }
