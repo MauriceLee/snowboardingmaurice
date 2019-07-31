@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/snowboardingmaurice/static/css/main.0a115ff7.chunk.css",
-    "main.js": "/snowboardingmaurice/static/js/main.c1efb54c.chunk.js",
-    "main.js.map": "/snowboardingmaurice/static/js/main.c1efb54c.chunk.js.map",
+    "main.css": "/snowboardingmaurice/static/css/main.8a24cddc.chunk.css",
+    "main.js": "/snowboardingmaurice/static/js/main.c4d91cf1.chunk.js",
+    "main.js.map": "/snowboardingmaurice/static/js/main.c4d91cf1.chunk.js.map",
     "runtime~main.js": "/snowboardingmaurice/static/js/runtime~main.8af5562d.js",
     "runtime~main.js.map": "/snowboardingmaurice/static/js/runtime~main.8af5562d.js.map",
-    "static/js/2.7aebf28f.chunk.js": "/snowboardingmaurice/static/js/2.7aebf28f.chunk.js",
-    "static/js/2.7aebf28f.chunk.js.map": "/snowboardingmaurice/static/js/2.7aebf28f.chunk.js.map",
+    "static/js/2.d921f91e.chunk.js": "/snowboardingmaurice/static/js/2.d921f91e.chunk.js",
+    "static/js/2.d921f91e.chunk.js.map": "/snowboardingmaurice/static/js/2.d921f91e.chunk.js.map",
     "index.html": "/snowboardingmaurice/index.html",
-    "precache-manifest.8f721b3b3206309c1cbf0750a3d661e5.js": "/snowboardingmaurice/precache-manifest.8f721b3b3206309c1cbf0750a3d661e5.js",
+    "precache-manifest.c13690232b1595ee75d2237279bde2bf.js": "/snowboardingmaurice/precache-manifest.c13690232b1595ee75d2237279bde2bf.js",
     "service-worker.js": "/snowboardingmaurice/service-worker.js",
-    "static/css/main.0a115ff7.chunk.css.map": "/snowboardingmaurice/static/css/main.0a115ff7.chunk.css.map",
+    "static/css/main.8a24cddc.chunk.css.map": "/snowboardingmaurice/static/css/main.8a24cddc.chunk.css.map",
     "static/media/img1.jpg": "/snowboardingmaurice/static/media/img1.9895bfa4.jpg",
-    "static/media/img2.jpg": "/snowboardingmaurice/static/media/img2.66c81c45.jpg",
+    "static/media/img2.jpg": "/snowboardingmaurice/static/media/img2.8daff3d9.jpg",
     "static/media/img3.jpg": "/snowboardingmaurice/static/media/img3.157a281a.jpg"
   }
 }
