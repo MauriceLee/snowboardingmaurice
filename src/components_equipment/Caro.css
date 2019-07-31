@@ -1,0 +1,31 @@
+.jumbotron {
+    padding: 0;
+}
+
+.d-block {
+    margin: auto;
+    opacity: 0.6;
+}
+
+.carousel-inner {
+    background-color: black;
+}
+
+.carousel-caption {
+    color:white;
+    font-family: monospace;
+}
+
+.table {
+    background-color: white;
+    color: black;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-header {
+    font-family: monospace;
+    font-size: 30px;
+}

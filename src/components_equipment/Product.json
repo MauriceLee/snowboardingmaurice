@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.imgur.com/gQq1e0M.jpg",
+      "title": "Snowboard",
+      "describe": "Your best and important friend for snowboarding.",
+      "price": 6999,
+      "discount": true
+    },
+    {
+      "id": 2,
+      "img": "https://i.imgur.com/Pxl36R6.jpg",
+      "title": "Clothes",
+      "describe": "Keep your body warm and protect your body.",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "img": "https://i.imgur.com/wbNm0dr.jpg",
+      "title": "Goggles",
+      "describe": "Protect your eyes and let you see clearly.",
+      "price": 780
+    }
+]

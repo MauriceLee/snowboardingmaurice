@@ -8,12 +8,17 @@ export default class Buttons extends Component {
         return (
             <Container>
                 <Row className="row no-gutters">
-                    <Col xs="12" md="6">
+                    <Col xs="12" md="4">
                         <Link to="/">
                             <Button variant="outline-primary" block>Home</Button>
                         </Link>
                     </Col>
-                    <Col xs="12" md="6">
+                    <Col xs="12" md="4">
+                        <Link to="/Equipment">
+                            <Button variant="outline-primary" block>Equipment</Button>
+                        </Link>
+                    </Col>
+                    <Col xs="12" md="4">
                         <Link to="/Todolist">
                             <Button variant="outline-primary" block>Todolist</Button>
                         </Link>
